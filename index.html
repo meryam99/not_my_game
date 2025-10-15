@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Duck Sorter</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐶</text></svg>"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+
+  <body>
+    <div class="panel">
+      <label
+        >Кольорів:
+        <input id="colorCountInput" type="number" min="1" max="12" value="3" />
+      </label>
+      <label
+        >Кульок:
+        <input id="ballsPerColorInput" type="number" min="1" max="60" value="3" />
+      </label>
+      <button id="startBtn">Start</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <canvas id="canvas" width="900" height="600"></canvas>
+    <div class="hint">
+      Це твоє поле з качечками. А ти гарний песик! Збери качечок докупки за кольорами.
+    </div>
+
+    <script src="./src/game.js"></script>
+  </body>
+</html>
