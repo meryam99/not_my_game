@@ -3,6 +3,7 @@
 ## 🎮 Live Demo
 👉 [Play on GitHub Pages](https://meryam99.github.io/not_my_game/)
 
+Completed test task:
 Simple browser game built with **JavaScript** and **HTML Canvas** —  
 sort colorful balls into clusters using your mouse!  
 Inspired by "Duck Sorter" mechanics 🦆.
