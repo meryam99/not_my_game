@@ -54,7 +54,7 @@ using the inputs above the canvas, then click **Start** or **Reset**.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ball-sorter-game.git
-cd ball-sorter-game
+git clone https://github.com/your-username/not_my_game.git
+cd not_my_game
 
-# Open index.html in your browser
+# Open index.html in your browser npm run dev
